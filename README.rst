@@ -10,6 +10,7 @@ Behavior
 ++++++++
 
 For now, the sumo's behavior is very simple:
+
  * when the user gets close (big face on the camera), the robot goes backward
  * when the user gets too far (small face on the camera), the robot goes forward
  * when the user moves sideways, the robot turns accordingly.
