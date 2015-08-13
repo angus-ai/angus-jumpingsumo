@@ -68,15 +68,15 @@ Now a docker container is available in order to simplify compilation dependencie
 
    $ git clone https://github.com/angus-ai/angus-jumpingsumo.git
 
-3. Goto in directory
+3. Goto in directory::
 
    $ cd angus-jumpingsumo
 
-4. Build the image
+4. Build the image::
 
    $ docker build -t sumo:test1 .
 
-5. Run the container
+5. Run the container::
 
    $ docker run -p 43212:43212/udp -p 43212:43212 -p 54321:54321 -p 54321:54321/udp -i -t sumo:test1
 
